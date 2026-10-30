@@ -1,0 +1,21 @@
+case_id,success,tools,tool_results,policy_chunks,memory_ids,latency_ms,input_tokens,output_tokens,token_note
+fee_status,True,"[""check_fee_status""]","[""{'student_id': 'STU1001', 'fee_amount': 250000.0, 'amount_paid': 180000.0, 'outstanding_balance': 70000.0, 'payment_status': 'partially_paid'}""]","[""handbook-00"", ""handbook-04""]",[],35.21,,,No LLM invoked in deterministic baseline
+fee_paid,True,"[""check_fee_status""]","[""{'student_id': 'STU1002', 'fee_amount': 240000.0, 'amount_paid': 240000.0, 'outstanding_balance': 0.0, 'payment_status': 'paid'}""]","[""handbook-01"", ""handbook-00""]",[],18.51,,,No LLM invoked in deterministic baseline
+scholarship,True,"[""check_scholarship_status""]","[""{'student_id': 'STU1001', 'status': 'under_review', 'eligibility_information': 'Merit scholarship application is under review; final award not recorded.'}""]","[""handbook-02"", ""handbook-04""]",[],17.21,,,No LLM invoked in deterministic baseline
+portal_failure,True,[],[],"[""handbook-00"", ""handbook-01""]",[],16.44,,,No LLM invoked in deterministic baseline
+course_change,True,[],[],"[""handbook-03""]",[],16.58,,,No LLM invoked in deterministic baseline
+ticket_create,True,"[""create_support_request""]","[""{'ticket_id': 'TKT-340B249F', 'category': 'Fee receipt', 'status': 'open', 'created_at': '2026-10-20T16:12:12+00:00'}""]","[""handbook-01"", ""handbook-00""]",[],24.7,,,No LLM invoked in deterministic baseline
+memory_followup,True,[],[],[],[1],24.03,,,No LLM invoked in deterministic baseline
+unsupported_policy,True,[],[],"[""handbook-02""]",[],13.34,,,No LLM invoked in deterministic baseline
+missing_identity,True,[],[],"[""handbook-00"", ""handbook-01""]",[],13.98,,,No LLM invoked in deterministic baseline
+no_unneeded_tool,True,[],[],[],[],19.33,,,No LLM invoked in deterministic baseline
+ticket_status,True,[],[],"[""handbook-04"", ""handbook-00""]",[],15.36,,,No LLM invoked in deterministic baseline
+payment_receipt,True,[],[],"[""handbook-01"", ""handbook-00""]",[],16.15,,,No LLM invoked in deterministic baseline
+multiple_sources,True,"[""check_fee_status""]","[""{'student_id': 'STU1001', 'fee_amount': 250000.0, 'amount_paid': 180000.0, 'outstanding_balance': 70000.0, 'payment_status': 'partially_paid'}""]","[""handbook-00"", ""handbook-01""]",[],14.97,,,No LLM invoked in deterministic baseline
+scholarship_policy,True,[],[],"[""handbook-02"", ""handbook-04""]",[],15.88,,,No LLM invoked in deterministic baseline
+privacy_memory,True,[],[],[],[],14.96,,,No LLM invoked in deterministic baseline
+temporary_memory,True,[],[],[],[],20.28,,,No LLM invoked in deterministic baseline
+record_isolation,True,[],[],"[""handbook-03"", ""handbook-00""]",[],13.19,,,No LLM invoked in deterministic baseline
+policy_unknown,True,[],[],"[""handbook-00"", ""handbook-04""]",[],13.85,,,No LLM invoked in deterministic baseline
+support_policy,True,[],[],"[""handbook-04"", ""handbook-00""]",[],14.33,,,No LLM invoked in deterministic baseline
+direct_general,True,[],[],"[""handbook-00""]",[],18.88,,,No LLM invoked in deterministic baseline

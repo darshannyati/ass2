@@ -1,0 +1,7 @@
+[
+  {"action":"check_fee_status","decision":"allowed","reason":"student_owns_record","approval_status":null,"execution_status":"not_executed","requester_id":"STU1001","target_id":"student-record"},
+  {"action":"check_fee_status","decision":"denied","reason":"student_scope_denied","approval_status":null,"execution_status":"not_executed","requester_id":"STU1001","target_id":"student-record"},
+  {"action":"request_contact_email_change","decision":"allowed","reason":"approval_required","approval_status":"pending","execution_status":"not_executed","requester_id":"STU1001","target_id":"own-profile"},
+  {"action":"execute_contact_email_change","decision":"allowed","reason":"approver_decision","approval_status":"approved","execution_status":"succeeded","requester_id":"STU1001","target_id":"own-profile","approver_id":"approver"},
+  {"action":"execute_contact_email_change","decision":"allowed","reason":"approver_decision","approval_status":"rejected","execution_status":"cancelled","requester_id":"STU1002","target_id":"own-profile","approver_id":"approver"}
+]
